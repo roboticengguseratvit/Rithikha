@@ -1,0 +1,5 @@
+[console_scripts]
+cpu_temp_monitor = monitoring_system.cpu_temp_monitor:main
+cpu_temp_publisher = monitoring_system.cpu_temp_publisher:main
+utility_node = monitoring_system.utility_node:main
+

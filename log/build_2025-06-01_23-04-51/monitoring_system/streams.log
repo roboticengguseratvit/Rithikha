@@ -1,0 +1,32 @@
+[0.937s] Invoking command in '/home/rithikha/task1/src/monitoring_system': PYTHONPATH=/home/rithikha/task1/build/monitoring_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rithikha/task1/install/monitoring_system/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/monitoring_system build --build-base /home/rithikha/task1/build/monitoring_system/build install --record /home/rithikha/task1/build/monitoring_system/install.log --single-version-externally-managed install_data
+[1.323s] running egg_info
+[1.324s] writing ../../build/monitoring_system/monitoring_system.egg-info/PKG-INFO
+[1.324s] writing dependency_links to ../../build/monitoring_system/monitoring_system.egg-info/dependency_links.txt
+[1.325s] writing entry points to ../../build/monitoring_system/monitoring_system.egg-info/entry_points.txt
+[1.325s] writing requirements to ../../build/monitoring_system/monitoring_system.egg-info/requires.txt
+[1.325s] writing top-level names to ../../build/monitoring_system/monitoring_system.egg-info/top_level.txt
+[1.328s] reading manifest file '../../build/monitoring_system/monitoring_system.egg-info/SOURCES.txt'
+[1.329s] writing manifest file '../../build/monitoring_system/monitoring_system.egg-info/SOURCES.txt'
+[1.330s] running build
+[1.330s] running build_py
+[1.330s] copying monitoring_system/utility_node.py -> /home/rithikha/task1/build/monitoring_system/build/lib/monitoring_system
+[1.330s] copying monitoring_system/cpu_temp_publisher.py -> /home/rithikha/task1/build/monitoring_system/build/lib/monitoring_system
+[1.331s] copying monitoring_system/cpu_temp_monitor.py -> /home/rithikha/task1/build/monitoring_system/build/lib/monitoring_system
+[1.331s] running install
+[1.332s] running install_lib
+[1.334s] copying /home/rithikha/task1/build/monitoring_system/build/lib/monitoring_system/utility_node.py -> /home/rithikha/task1/install/monitoring_system/lib/python3.10/site-packages/monitoring_system
+[1.334s] copying /home/rithikha/task1/build/monitoring_system/build/lib/monitoring_system/cpu_temp_publisher.py -> /home/rithikha/task1/install/monitoring_system/lib/python3.10/site-packages/monitoring_system
+[1.334s] copying /home/rithikha/task1/build/monitoring_system/build/lib/monitoring_system/cpu_temp_monitor.py -> /home/rithikha/task1/install/monitoring_system/lib/python3.10/site-packages/monitoring_system
+[1.335s] byte-compiling /home/rithikha/task1/install/monitoring_system/lib/python3.10/site-packages/monitoring_system/utility_node.py to utility_node.cpython-310.pyc
+[1.335s] byte-compiling /home/rithikha/task1/install/monitoring_system/lib/python3.10/site-packages/monitoring_system/cpu_temp_publisher.py to cpu_temp_publisher.cpython-310.pyc
+[1.336s] byte-compiling /home/rithikha/task1/install/monitoring_system/lib/python3.10/site-packages/monitoring_system/cpu_temp_monitor.py to cpu_temp_monitor.cpython-310.pyc
+[1.337s] running install_data
+[1.337s] running install_egg_info
+[1.340s] removing '/home/rithikha/task1/install/monitoring_system/lib/python3.10/site-packages/monitoring_system-0.0.0-py3.10.egg-info' (and everything under it)
+[1.341s] Copying ../../build/monitoring_system/monitoring_system.egg-info to /home/rithikha/task1/install/monitoring_system/lib/python3.10/site-packages/monitoring_system-0.0.0-py3.10.egg-info
+[1.342s] running install_scripts
+[1.375s] Installing cpu_temp_monitor script to /home/rithikha/task1/install/monitoring_system/lib/monitoring_system
+[1.375s] Installing cpu_temp_publisher script to /home/rithikha/task1/install/monitoring_system/lib/monitoring_system
+[1.375s] Installing utility_node script to /home/rithikha/task1/install/monitoring_system/lib/monitoring_system
+[1.376s] writing list of installed files to '/home/rithikha/task1/build/monitoring_system/install.log'
+[1.416s] Invoked command in '/home/rithikha/task1/src/monitoring_system' returned '0': PYTHONPATH=/home/rithikha/task1/build/monitoring_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rithikha/task1/install/monitoring_system/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/monitoring_system build --build-base /home/rithikha/task1/build/monitoring_system/build install --record /home/rithikha/task1/build/monitoring_system/install.log --single-version-externally-managed install_data

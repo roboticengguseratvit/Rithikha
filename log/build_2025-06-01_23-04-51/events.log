@@ -1,0 +1,51 @@
+[0.000000] (-) TimerEvent: {}
+[0.000916] (monitoring_system) JobQueued: {'identifier': 'monitoring_system', 'dependencies': OrderedDict()}
+[0.000968] (monitoring_system) JobStarted: {'identifier': 'monitoring_system'}
+[0.099663] (-) TimerEvent: {}
+[0.200038] (-) TimerEvent: {}
+[0.300349] (-) TimerEvent: {}
+[0.400685] (-) TimerEvent: {}
+[0.501064] (-) TimerEvent: {}
+[0.601483] (-) TimerEvent: {}
+[0.701804] (-) TimerEvent: {}
+[0.802212] (-) TimerEvent: {}
+[0.902643] (-) TimerEvent: {}
+[0.936376] (monitoring_system) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/monitoring_system', 'build', '--build-base', '/home/rithikha/task1/build/monitoring_system/build', 'install', '--record', '/home/rithikha/task1/build/monitoring_system/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/rithikha/task1/src/monitoring_system', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'rithikha', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/rithikha', 'OLDPWD': '/home/rithikha/task1/src/monitoring_system', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '11704', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/rithikha/task1/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'rithikha', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rithikha', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/rithikha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rithikha-S301LA:@/tmp/.ICE-unix/11676,unix/rithikha-S301LA:/tmp/.ICE-unix/11676', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ee895b7c_685d_4eed_a87d_3d4d9c860a24', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_IN', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.P1G362', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.116', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/rithikha/task1/install/monitoring_system:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rithikha/task1/build/monitoring_system', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rithikha/task1/build/monitoring_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rithikha/task1/install/monitoring_system/lib/python3.10/site-packages:/home/rithikha/task1/install/monitoring_system/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.002783] (-) TimerEvent: {}
+[1.103098] (-) TimerEvent: {}
+[1.203410] (-) TimerEvent: {}
+[1.303781] (-) TimerEvent: {}
+[1.323237] (monitoring_system) StdoutLine: {'line': b'running egg_info\n'}
+[1.325003] (monitoring_system) StdoutLine: {'line': b'writing ../../build/monitoring_system/monitoring_system.egg-info/PKG-INFO\n'}
+[1.325291] (monitoring_system) StdoutLine: {'line': b'writing dependency_links to ../../build/monitoring_system/monitoring_system.egg-info/dependency_links.txt\n'}
+[1.325588] (monitoring_system) StdoutLine: {'line': b'writing entry points to ../../build/monitoring_system/monitoring_system.egg-info/entry_points.txt\n'}
+[1.325781] (monitoring_system) StdoutLine: {'line': b'writing requirements to ../../build/monitoring_system/monitoring_system.egg-info/requires.txt\n'}
+[1.326034] (monitoring_system) StdoutLine: {'line': b'writing top-level names to ../../build/monitoring_system/monitoring_system.egg-info/top_level.txt\n'}
+[1.328532] (monitoring_system) StdoutLine: {'line': b"reading manifest file '../../build/monitoring_system/monitoring_system.egg-info/SOURCES.txt'\n"}
+[1.330069] (monitoring_system) StdoutLine: {'line': b"writing manifest file '../../build/monitoring_system/monitoring_system.egg-info/SOURCES.txt'\n"}
+[1.330502] (monitoring_system) StdoutLine: {'line': b'running build\n'}
+[1.330719] (monitoring_system) StdoutLine: {'line': b'running build_py\n'}
+[1.330973] (monitoring_system) StdoutLine: {'line': b'copying monitoring_system/utility_node.py -> /home/rithikha/task1/build/monitoring_system/build/lib/monitoring_system\n'}
+[1.331213] (monitoring_system) StdoutLine: {'line': b'copying monitoring_system/cpu_temp_publisher.py -> /home/rithikha/task1/build/monitoring_system/build/lib/monitoring_system\n'}
+[1.331613] (monitoring_system) StdoutLine: {'line': b'copying monitoring_system/cpu_temp_monitor.py -> /home/rithikha/task1/build/monitoring_system/build/lib/monitoring_system\n'}
+[1.332039] (monitoring_system) StdoutLine: {'line': b'running install\n'}
+[1.333101] (monitoring_system) StdoutLine: {'line': b'running install_lib\n'}
+[1.334764] (monitoring_system) StdoutLine: {'line': b'copying /home/rithikha/task1/build/monitoring_system/build/lib/monitoring_system/utility_node.py -> /home/rithikha/task1/install/monitoring_system/lib/python3.10/site-packages/monitoring_system\n'}
+[1.335012] (monitoring_system) StdoutLine: {'line': b'copying /home/rithikha/task1/build/monitoring_system/build/lib/monitoring_system/cpu_temp_publisher.py -> /home/rithikha/task1/install/monitoring_system/lib/python3.10/site-packages/monitoring_system\n'}
+[1.335175] (monitoring_system) StdoutLine: {'line': b'copying /home/rithikha/task1/build/monitoring_system/build/lib/monitoring_system/cpu_temp_monitor.py -> /home/rithikha/task1/install/monitoring_system/lib/python3.10/site-packages/monitoring_system\n'}
+[1.335750] (monitoring_system) StdoutLine: {'line': b'byte-compiling /home/rithikha/task1/install/monitoring_system/lib/python3.10/site-packages/monitoring_system/utility_node.py to utility_node.cpython-310.pyc\n'}
+[1.336375] (monitoring_system) StdoutLine: {'line': b'byte-compiling /home/rithikha/task1/install/monitoring_system/lib/python3.10/site-packages/monitoring_system/cpu_temp_publisher.py to cpu_temp_publisher.cpython-310.pyc\n'}
+[1.336994] (monitoring_system) StdoutLine: {'line': b'byte-compiling /home/rithikha/task1/install/monitoring_system/lib/python3.10/site-packages/monitoring_system/cpu_temp_monitor.py to cpu_temp_monitor.cpython-310.pyc\n'}
+[1.337780] (monitoring_system) StdoutLine: {'line': b'running install_data\n'}
+[1.337984] (monitoring_system) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.340809] (monitoring_system) StdoutLine: {'line': b"removing '/home/rithikha/task1/install/monitoring_system/lib/python3.10/site-packages/monitoring_system-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.341362] (monitoring_system) StdoutLine: {'line': b'Copying ../../build/monitoring_system/monitoring_system.egg-info to /home/rithikha/task1/install/monitoring_system/lib/python3.10/site-packages/monitoring_system-0.0.0-py3.10.egg-info\n'}
+[1.342617] (monitoring_system) StdoutLine: {'line': b'running install_scripts\n'}
+[1.375547] (monitoring_system) StdoutLine: {'line': b'Installing cpu_temp_monitor script to /home/rithikha/task1/install/monitoring_system/lib/monitoring_system\n'}
+[1.375948] (monitoring_system) StdoutLine: {'line': b'Installing cpu_temp_publisher script to /home/rithikha/task1/install/monitoring_system/lib/monitoring_system\n'}
+[1.376202] (monitoring_system) StdoutLine: {'line': b'Installing utility_node script to /home/rithikha/task1/install/monitoring_system/lib/monitoring_system\n'}
+[1.376639] (monitoring_system) StdoutLine: {'line': b"writing list of installed files to '/home/rithikha/task1/build/monitoring_system/install.log'\n"}
+[1.403943] (-) TimerEvent: {}
+[1.417018] (monitoring_system) CommandEnded: {'returncode': 0}
+[1.432703] (monitoring_system) JobEnded: {'identifier': 'monitoring_system', 'rc': 0}
+[1.434655] (-) EventReactorShutdown: {}
